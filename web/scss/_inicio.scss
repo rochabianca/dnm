@@ -1,0 +1,48 @@
+.intro-slide {
+  @include d(s) {
+    display: none;
+  }
+}
+
+.tel {
+  text-align: right;
+  font-size: em(20);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $marrom;
+
+  @include d(s) {
+    margin-top: -120px;
+  }
+}
+
+.quem-somos {
+  @include d(s) {
+    margin-top: 20px;
+  }
+}
+
+.quem-somos-texto {
+  margin-left: 3%;
+  @include d(s) {
+    margin-top: 20px;
+  }
+}
+
+
+.equipamentos-texto {
+  margin-right: 3%;
+    @include d(s) {
+   margin-bottom: 20px; 
+  }
+}
+
+.chamado {
+  margin-bottom: 4%;
+}
+
+.produtos-section {
+   @include d(s) {
+    margin-left: 3%;
+  }
+}

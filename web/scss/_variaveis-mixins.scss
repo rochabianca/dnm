@@ -1,0 +1,48 @@
+// Cores
+$marrom: #2d2627;
+$verde: #2f3c2f;
+$preto: #000;
+$branco: #fff;
+
+//Fontes
+$fonte: 'Quicksand', sans-serif;
+
+//Funções
+@function em($pixel, $contexto: 16) {
+  @return $pixel / $contexto + em;
+}
+
+//Mixins
+@mixin tipo-1($size) {
+  font-family: $fonte;
+  font-weight: bold;
+  text-transform: uppercase;
+  @if $size == 18 {
+    font-size: em(18);
+    line-height: em(30, 18);
+  }
+  @else if $size == 24 {
+    font-size: em(24);
+    line-height: em(36, 24);
+  }
+  @else if $size == 36 {
+    font-size: em(36);
+    line-height: em(48, 36);
+  }
+}
+
+@mixin tipo-2($size) {
+  font-family: $fonte;
+  @if $size == 18 {
+    font-size: em(18);
+    line-height: em(30, 18);
+  }
+  @else if $size == 24 {
+    font-size: em(24);
+    line-height: em(30,24);
+  }
+  @else if $size == 36 {
+    font-size: em(36);
+    line-height: em(48,36);
+  }
+}
