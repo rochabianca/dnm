@@ -18,8 +18,8 @@ function enviaEmail($de, $assunto, $mensagem, $para, $email_servidor) {
   mail($para, $assunto, nl2br($mensagem), $headers);
 }
 
-$email_servidor = "email-servidor";
-$para = "email-destinatario";
+$email_servidor = "contato@donortemadeiras.com.br";
+$para = "contato@donortemadeiras.com.br";
 $de = pegaValor("email");
 $nome = pegaValor("nome");
 $telefone = pegaValor("telefone");
