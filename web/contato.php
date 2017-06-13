@@ -89,8 +89,8 @@
 
       <div class="grid-4 margin-left">
           <h2 class="subtitulo text-left">Nosso Contato</h2>
-          <p class="margem text-left">- Av. Cel. Carvalho, 1751 - Jardim Guanabara, 
-  Fortaleza - CE, 60347-110</p>
+          <p class="margem text-left">- Av. Cel. Carvalho, 1751 - Jardim Iracema, 
+  Fortaleza - CE, 60341-641</p>
           <p class="margem text-left">- Tel: 3282-2496</p>
           <p class="margem text-left">- E-mail: contato@donortemadeiras.com.br</p>
           <a href="https://www.google.com.br/maps/place/Do+Norte+Madeiras/@-3.7176594,-38.5898785,17z/data=!3m1!4b1!4m5!3m4!1s0x7c74a3f1c6ef7b5:0x5c5070e29050aa93!8m2!3d-3.7176594!4d-38.5876898" target="_blank"><img class="borda" src="img/contato/mapa.jpg" alt="Mapa"></a>
@@ -108,8 +108,8 @@
         <div class="grid-3">
           <h2 class="subtitulo-footer">Nossa Loja</h2>
           <p class="branco">Av. Cel. Carvalho, 1751,</p>
-          <p class="branco">Jardim Guanabara,</p>
-          <p class="branco">Fortaleza - CE, 60347-110</p>
+          <p class="branco">Jardim Iracema,</p>
+          <p class="branco">Fortaleza - CE, 60341-641</p>
         </div>
 
          <div class="grid-4">
